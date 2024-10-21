@@ -15,13 +15,13 @@
     flex-direction: column;
     color: white;
     align-items: center;
+    padding: 20px; /* Add some padding */
 }
 
 .hero h1 {
     font-size: 45px;
     font-weight: 500;
-    margin-top: -50px;
-    margin-bottom: 50px;
+    margin: 0 0 20px; /* Adjust margin */
 }
 
 .hero h1 span {
@@ -29,8 +29,8 @@
 }
 
 textarea {
-    width: 100%; /* Make textarea full width */
-    max-width: 600px; /* Set a max-width for larger screens */
+    width: 100%;
+    max-width: 600px;
     height: 250px;
     background: #403d84;
     color: #fff;
@@ -49,8 +49,8 @@ textarea::placeholder {
 }
 
 .row {
-    width: 100%; /* Make row full width */
-    max-width: 600px; /* Set a max-width for larger screens */
+    width: 100%;
+    max-width: 600px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -93,12 +93,13 @@ select {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .hero h1 {
-        font-size: 32px; /* Reduce font size for smaller screens */
-        margin-top: -30px; /* Adjust margin */
+        font-size: 36px; /* Adjust font size for medium screens */
+        margin-bottom: 10px; /* Reduce margin for a more compact look */
     }
 
     textarea {
-        height: 200px; /* Reduce height for smaller screens */
+        height: 200px; /* Adjust height for smaller screens */
+        font-size: 14px; /* Reduce font size for textarea */
     }
 
     button {
@@ -118,18 +119,23 @@ select {
 
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 24px; /* Further reduce font size for very small screens */
+        font-size: 28px; /* Further reduce font size for very small screens */
     }
 
     textarea {
-        font-size: 14px; /* Smaller font size in textarea */
+        font-size: 12px; /* Smaller font size in textarea */
     }
 
     button {
         padding: 6px 15px; /* Adjust padding for very small screens */
+        font-size: 12px; /* Further reduce button font size */
     }
 
     select {
         height: 35px; /* Further adjust height for select dropdown */
+    }
+
+    .hero {
+        padding: 10px; /* Reduce padding for very small screens */
     }
 }
