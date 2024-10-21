@@ -33,7 +33,7 @@ You can check the live demo of the project [here](https://rabumaabraham.github.i
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/rabumaabraham/letting-the-button-speak.git
+    git clone https://github.com/rabumaabraham/Text-To-Speech-Convertor
     ```
 
 2. **Navigate into the project directory**:
